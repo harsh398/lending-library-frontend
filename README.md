@@ -61,15 +61,18 @@ You need to have Nodejs and npm install you can download from link below:-
 git clone https://github.com/harsh398/lending-library-frontend
 ```
 *  Navigate to my-app folder
-* all the packages are already included but you can still run Following command:-
+*  Run the Following command:-
 ```sh
 npm install
 ```
-*  Run the following command :-
+*  Run the following command to start :-
 ```sh
 yarn start
 ```
-
+OR
+```sh
+npm start
+```
 ## Deliverables :-
 
 * Hasura Console : https://lending-library-app.herokuapp.com/console
