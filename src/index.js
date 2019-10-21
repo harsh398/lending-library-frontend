@@ -9,10 +9,8 @@ import {
 } from "react-router-dom";
 import { ApolloProvider } from "react-apollo";
 import ApolloClient from "apollo-boost";
-
 import FeedPage from "./components/FeedPage";
 import CreatePage from "./components/CreatePage";
-
 import "tachyons";
 import "./index.css";
 

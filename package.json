@@ -1,4 +1,4 @@
-{
+{ 
   "name": "lending-library-app",
   "version": "1.0.0",
   "devDependencies": {},
@@ -41,4 +41,4 @@
     "url": "https://github.com/harsh398/lending-library-frontend/issues"
   },
   "homepage": "https://github.com/harsh398/lending-library-frontend#readme"
-}
+ }
