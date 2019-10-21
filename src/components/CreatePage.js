@@ -91,10 +91,7 @@ class CreatePage extends Component {
                       Close
                     </button>
                   </div>
-                </Modal><button className="cancel-button">
-                <Link to="/" >
-          Cancel
-          </Link></button>
+                </Modal>
               </form>
             </div>
           );
