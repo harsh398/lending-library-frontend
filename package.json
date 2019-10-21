@@ -18,7 +18,7 @@
     "yarn": "^1.19.1"
   },
   "scripts": {
-    "start": "yarn react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -32,5 +32,13 @@
   "main": "index.js",
   "license": "MIT",
   "author": "",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harsh398/lending-library-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harsh398/lending-library-frontend/issues"
+  },
+  "homepage": "https://github.com/harsh398/lending-library-frontend#readme"
 }
