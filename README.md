@@ -48,7 +48,7 @@ You need to have Nodejs and npm install you can download from link below:-
 ```sh
 git clone https://github.com/harsh398/lending-library-frontend
 ```
-- Navigate to my-app folder
+- Navigate to Repository folder
 - Run the Following command:-
 ```sh
 npm install
