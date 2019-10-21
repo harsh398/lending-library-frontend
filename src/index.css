@@ -1,0 +1,184 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300, 400';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #4287f5;
+  max-width:100%;
+  
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.post {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  width: 350px;
+  height: 350px;
+  flex: 0 0 350px;
+}
+
+.post .description {
+  flex: 1;
+  padding-left: 25px;
+  font-size: 25px;
+}
+
+.detail {
+  width: 600px;
+  height: 600px;
+  flex: 0 0 600px;
+}
+
+.detail .description {
+  flex: 1;
+  padding-left: 40px;
+  font-size: 38px;
+}
+
+.title {
+  font-size: 42px;
+}
+
+.content {
+  font-size: 18px;
+}
+
+.new-post {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.close {
+  opacity: 0.5;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.close img {
+  width: 20px;
+  height: 20px;
+}
+
+.main {
+  margin: 50px 30px 50px 80px;
+  font-size: 2em;
+  width: 100%;
+}
+
+.heading {
+  text-decoration: none;
+  border: solid 8px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding: 15px;
+  border-color: rgb(209, 120, 104);
+  color: black;
+  background-color: white;
+  font-size: 2em;
+  width: 100%;
+}
+.donate-page{
+  width: 100%;
+  text-align: center;
+  margin-left: 320px;
+}
+.donate {
+  text-decoration: none;
+  border: solid 8px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  padding: 15px;
+  border-color: rgb(209, 120, 104);
+  color: black;
+  background-color: white;
+  font-size: 2em;
+}
+
+.button {
+  margin: 40px 0px 40px 700px;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #b5ddf7;
+  max-width:100%
+}
+
+.fields {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  border-radius: 9px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+}
+
+.book {
+  text-align: center;
+  font-size: 3em;
+}
+
+.name-field {
+  border: 1px solid;
+  width: 300px;
+  height: 50px;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 10px 0px 0px 0px;
+}
+
+.author-field {
+  border: 1px solid;
+  width: 300px;
+  height: 50px;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 10px 0px 0px 0px;
+}
+
+.donate-button {
+  width: 150px;
+  height: 40px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  text-decoration: none;
+}
+
+.cancel-button {
+  width: 150px;
+  height: 40px;
+  margin: 10px 0px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  
+}
+.cancel-button > a{
+  text-decoration: none;
+}
